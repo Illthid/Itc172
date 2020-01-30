@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '+x(uv*39)9*i0y6jlwi4+o4)q50$y6544+5s&m_@$9210q)+-f'
+SECRET_KEY = '*f(4o0==5o8ler$k6*cfn5uk&s#kta#u$kg%_xv+&1&ptg=(gb'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'pythonclub.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-   'default': {
+    'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'pythonclubdb',
         'USER' : 'postgres',
